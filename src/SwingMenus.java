@@ -202,7 +202,10 @@ public class SwingMenus {
 		description1.setFont(new Font("Serif", Font.BOLD, 20));
 		description1.setForeground(Color.black);
 		
-		StringI a4 = new StringI(new String[]{"Only at " + (in.distance_center - dist) + " meters of your place." ,"Solo " + (in.distance_center - dist) + " metros de tu hotel."});
+		int distancehr = (Math.max(in.distance_center, dist) - Math.min(in.distance_center, dist));
+		
+		
+		StringI a4 = new StringI(new String[]{"Only at " + distancehr + " meters of your place." ,"Solo " + (in.distance_center - dist) + " metros de tu hotel."});
 		JLabel distance = new JLabel(a4.getText(leng));
 		distance.setBounds(20, 230, 500, 50);
 		distance.setFont(new Font("Serif", Font.BOLD, 20));
