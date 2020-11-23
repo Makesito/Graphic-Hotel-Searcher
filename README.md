@@ -25,7 +25,7 @@ For now the prime realised objectives have bean:
     
     wifi boolean(string "true" or "false")
     
-  **Hotel method**
+  **Restaurant method**
   
     name "restaurant name" 
     
@@ -58,3 +58,15 @@ For now the prime realised objectives have bean:
   **comments**
     
     array of int numbers with the values of the guest reviews
+    
+    
+    
+    
+  **Last Updates**
+      Now the main reusable methods has bean implemented as interfaces for future reutilization with easier understanding.
+      
+  **Data followed for the develop process**
+      https://www.javatpoint.com/java-swing
+      
+  **Follow us**
+      https://twitter.com/soyaquelfriki
