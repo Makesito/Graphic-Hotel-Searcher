@@ -2,7 +2,7 @@
 
 # Basic Guide
 
-This time we are trying to make a more intuitive and accesable programm for the user and developer level.
+This time we are trying to make a more intuitive and accesable programm at the user and developer level.
 The final object is to be able to change every setting and have total control of the programm through graphic menu's.
 
 For now the prime realised objectives have bean:
