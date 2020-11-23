@@ -1,0 +1,4 @@
+name Deluxe
+price 50
+smoke true
+capability 4 

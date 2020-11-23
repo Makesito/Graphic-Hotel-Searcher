@@ -1,0 +1,5 @@
+name 4Seasons
+distance 40
+pool true
+city Madrid
+wifi true
