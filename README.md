@@ -25,6 +25,16 @@ For now the prime realised objectives have bean:
     
     wifi boolean(string "true" or "false")
     
+  **Hotel method**
+  
+    name "restaurant name" 
+    
+    distance float_with_the_distance_to_the_center_of_the_city
+    
+    michelib boolean(string "true" or "false")
+    
+    city "city name"
+    
   **Description**
     
     The whole txt file assign the description String
