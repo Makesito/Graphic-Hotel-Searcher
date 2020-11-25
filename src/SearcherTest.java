@@ -36,7 +36,7 @@ class SearcherTest {
 		buying.getTotalSpend();
 		data.newItem(a3);
 		data.getRooms();
-		data.newRestaurant(a4);
+		data.newItem(a4);
 		data.getRestaurants();
 	}
 

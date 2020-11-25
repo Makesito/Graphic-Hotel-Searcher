@@ -22,7 +22,7 @@ public class AppData{
 		return restaurants;
 	}
 	
-	public void newRestaurant(Restaurant in) {
+	public void newItem (Restaurant in) {
 		restaurants.add(in);
 	}
 	

@@ -7,7 +7,7 @@ public class Main {
 		SwingMenus start = new SwingMenus();
 		Room x = new Room("4Seasons","Deluxe");
 		start.data.newItem(x);
-		start.data.newRestaurant(new Restaurant("Pepe's"));
+		start.data.newItem(new Restaurant("Pepe's"));
 		start.MainMenu();
 		
 		//Hotel a1 = new Hotel("4Seasons");
