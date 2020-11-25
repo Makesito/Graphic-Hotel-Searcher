@@ -69,7 +69,13 @@ For now the prime realised objectives have bean:
     
     
   **Last Updates**
+  
       Now the main reusable methods has bean implemented as interfaces for future reutilization with easier understanding.
+      Maybe this is not such a big change in the final result of the code, but it will ease the work of external coders and the faster reading understanding of the       code.
+      That way the inclusion of new workers to the project will a fast and simple task to the new and old programmers working on it.
+      
+      Talking about more visual and intuitive update, the whole graphical interface has bean translate into english with the posibility as many new lenguages as you       want without modifying any code except the new translations. The implementation of direct google translation has bean consider as posible new method on the         international string implemtation.
+      
       
   **Data followed for the develop process**
   
