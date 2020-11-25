@@ -25,6 +25,16 @@ For now the prime realised objectives have bean:
     
     wifi boolean(string "true" or "false")
     
+  **Restaurant method**
+  
+    name "restaurant name" 
+    
+    distance float_with_the_distance_to_the_center_of_the_city
+    
+    michelib boolean(string "true" or "false")
+    
+    city "city name"
+    
   **Description**
     
     The whole txt file assign the description String
@@ -48,3 +58,21 @@ For now the prime realised objectives have bean:
   **comments**
     
     array of int numbers with the values of the guest reviews
+    
+  **Class Graph**
+  
+  <object data="https://github.com/Makesito/Graphic-Hotel-Searcher/blob/master/DiagramaGraphicHotel.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="hhttps://github.com/Makesito/Graphic-Hotel-Searcher/blob/master/DiagramaGraphicHotel.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Makesito/Graphic-Hotel-Searcher/blob/master/DiagramaGraphicHotel.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+    
+    
+  **Last Updates**
+      Now the main reusable methods has bean implemented as interfaces for future reutilization with easier understanding.
+      
+  **Data followed for the develop process**
+      https://www.javatpoint.com/java-swing
+      
+  **Follow us**
+      https://twitter.com/soyaquelfriki
