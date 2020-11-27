@@ -15,6 +15,8 @@ class SearcherTest {
 		start.UserFrame();
 		start.HotelFrame(new Room("4Seasons","Deluxe"));
 		Restaurant a4 = new Restaurant("Pepe's");
+		assertEquals(a4.getName(),"Pepe's");
+		
 		start.RestaurantFrame(new Restaurant("Pepe's"), 60);
 		Hotel a2 = new Hotel("4Seasons");
 		Room a3 = new Room("4Seasons","Deluxe");
