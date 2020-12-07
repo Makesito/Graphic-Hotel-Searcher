@@ -6,6 +6,12 @@ interface PurchaseI<Stuff>{
 	public Vector<Stuff> getTotal();
 	public double getTotalSpend();
 	
+	default public void showTotal() {
+		for(Stuff elem:this.getTotal()) {
+			System.out.println(elem);
+		}
+	}
+	
 }
 
 
